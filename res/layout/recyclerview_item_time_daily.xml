@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_time_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/big_padding"
+        android:text="00:00"
+        android:textAppearance="@style/Text.EditText" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/etQuantity"
+        android:layout_width="@dimen/et_number_time"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/big_padding"
+        android:inputType="number"
+        android:paddingLeft="@dimen/big_padding"
+        android:paddingRight="@dimen/big_padding"
+        android:text="1"
+        android:textAlignment="center"
+        android:maxLength="2"/>
+</LinearLayout>

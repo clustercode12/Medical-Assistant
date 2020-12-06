@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Ayudante Medical</string>
+
+    <string name="title_main">List of people under management</string>
+    <string name="title_add_person">New Person</string>
+    <string name="title_add_contact">Add Contact</string>
+    <string name="title_add_medicament">Add Medicament</string>
+    <string name="title_add_appointment">Add Appointment</string>
+    <string name="title_add_bloodpressure">Add Blood Pressure</string>
+    <string name="title_add_bloodsugar">Add Blood Sugar</string>
+    <string name="title_medicaments">Medicaments</string>
+    <string name="title_contacts">Contacts</string>
+
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_done">Done</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_go">Go</string>
+    <string name="action_start">Start</string>
+    <string name="action_no">No</string>
+    <string name="action_yes">Yes</string>
+
+    <string name="result_fill_fields">Please make sure to fill all the fields.</string>
+
+    <string name="text_name">Name</string>
+    <string name="text_height">Height (ft)</string>
+    <string name="text_weight">Weight (lb)</string>
+    <string name="text_blood_pressure">Blood Pressure</string>
+    <string name="text_appointments">Appointments</string>
+    <string name="text_blood_sugar">Blood Sugar</string>
+    <string name="text_medical_notes">Medical Notes</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_relation">Relation</string>
+    <string name="text_phone_number">Phone Number</string>
+    <string name="text_receive_text_alerts">Receive text alerts</string>
+    <string name="text_dose">Dose</string>
+    <string name="text_doctor">Doctor</string>
+    <string name="text_frequency">Frequency</string>
+    <string name="text_days">Days</string>
+    <string name="text_value">Value</string>
+    <string name="text_date">Date</string>
+    <string name="text_time">Time</string>
+    <string name="text_start_time">Start time</string>
+    <string name="text_end_time">End time</string>
+    <string name="text_notes">Notes</string>
+
+    <string-array name="sp_frequency">
+        <item>Daily</item>
+    </string-array>
+
+    <string-array name="sp_weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    
+    <string name="units_blood_pressure">Value (mmHg)</string>
+    <string name="units_blood_sugar">Value (mg/dL)</string>
+    <string name="units_dose">Dose (mg)</string>
+
+    <string name="premium">Your subscription has ended. Time to go Premium!</string>
+    <string name="trial">Your trial has started! You have 7 days left.</string>
+    <string name="error">Could not connect to the server, please try again.</string>
+</resources>
